@@ -1,0 +1,81 @@
+body {
+    background: #18171c;
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#392d69", endColorstr="#b57bee", GradientType=1);
+    justify-content: center;
+    align-items: center;
+    font-family: Satoshi, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+        Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+        Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    user-select: none;
+}
+
+.logo {
+    width: 300px;
+    height: auto;
+    display: block;
+}
+
+.name {
+    color: rgb(243, 243, 243);
+}
+
+.buttons-container {
+    display: flex;
+
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: rgba(89, 54, 162, 0.4);
+    border: solid 1px #5936a2;
+    color: white;
+    flex-basis: 50%;
+    padding: 0.7rem 1.5rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.1rem;
+    border-radius: 0.47rem;
+    transition: background-color 0.3s;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button i {
+    margin-right: 5px;
+}
+
+.button:hover {
+    background-color: #5936a2;
+}
+
+.footer {
+    border-top: 1px solid var(--bg-color-light);
+    border-radius: 10px;
+    color: hsl(30, 50%, 98%);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+#ftr {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: hsl(30, 50%, 98%);
+    text-align: center;
+    margin: 0;
+    padding: 0.5rem 1rem;
+}
